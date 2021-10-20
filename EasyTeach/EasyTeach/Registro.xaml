@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyTeach.Registro">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" >
+            <Label Text="REGISTRO" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" FontSize="30"></Label>
+            <Label Text="Nombre:" FontSize="Large" Margin="0,30,0,0" HorizontalOptions="Center" TextColor="Black"/>
+            <Entry Text="Ingrese Nombre" FontSize="Small" HorizontalOptions="Center" WidthRequest="200" TextColor="Black"></Entry>
+            <Label  Text="Apellido:" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
+            <Entry  Text="Ingrese Apellido" TextColor="Black"  HorizontalOptions="Center" WidthRequest="200" FontSize="Small"></Entry>
+            <Label   Text="Correo Eléctronico:" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
+            <Entry  HorizontalOptions="Center" TextColor="Black" WidthRequest="200" Text="Ingrese Correo Eléctronico " FontSize="Small"></Entry>
+            <Label Text="Nacionalidad" FontSize="Large" HorizontalOptions="Center" TextColor="Black" />
+            <Entry HorizontalOptions="Center" TextColor="Black" WidthRequest="200" Text="Ingrese Nacionalidad" FontSize="Small"></Entry>
+            <Label Text="Comuna:" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
+            <Entry HorizontalOptions="Center" TextColor="Black" WidthRequest="200" Text="Ingrese Comuna" FontSize="Small"></Entry>
+            <Label Text="Dirección:" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
+            <Entry HorizontalOptions="Center" TextColor="Black" WidthRequest="200"  Text="Ingrese Dirección" FontSize="Small"></Entry>
+            <Label Text="Fecha de Nacimiento " FontSize="Large" HorizontalOptions="Center" TextColor="Black" />
+            <Entry HorizontalOptions="Center" TextColor="Black" WidthRequest="200" Text="Ingrese Fecha de nacimiento" FontSize="Small"></Entry>
+            <Label Text="¿Tutor o Estudiante?" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
+            <Picker  x:Name="tutoroestudiante" SelectedIndexChanged="Tutoroestudiante_SelectedIndexChanged" WidthRequest="200" HorizontalOptions="Center"></Picker>   
+            <Label Text="Universidad: " FontSize="Large" HorizontalOptions="Center"  TextColor="Black"/>
+            <Entry HorizontalOptions="Center" TextColor="Black" WidthRequest="200" Text="Ingrese Universidad" FontSize="Small"></Entry>
+            <Label Text="Carrera:" FontSize="Large"  HorizontalOptions="Center" TextColor="Black"/>
+            <Entry HorizontalOptions="Center" TextColor="Black" WidthRequest="200" Text="Ingrese Carrera" FontSize="Small"></Entry>
+            <Label Text="Año que cursas:" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
+            <Entry HorizontalOptions="Center" WidthRequest="200" Text="Ingrese tu año " TextColor="Black" FontSize="Small"></Entry>
+            <Button x:Name="btnregistrar" Text="Registrar" HorizontalOptions="Center" BackgroundColor="Orange" TextColor="Black" FontSize="22" FontAttributes="Bold" Margin="0,30,0,0" />
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

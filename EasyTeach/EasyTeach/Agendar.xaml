@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyTeach.Agendar">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="LightCyan">
+            <Label Text="Agenda" TextColor="Black" FontSize="30" HorizontalOptions="Center" Margin="0,80,0,0" ></Label>
+            <Label Text="DÍA" TextColor="Black" FontSize="20" FontAttributes="Bold" Margin="100,50,0,0"></Label>
+            
+            <DatePicker  HorizontalOptions="CenterAndExpand"  WidthRequest="400" Margin="0,30,0,0"  ></DatePicker>
+            <Label Text="HORA" TextColor="Black" FontAttributes="Bold" FontSize="20" Margin="100,50,0,0"></Label>
+            <Button x:Name="btn10" Text="10:00" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Start" Margin="100,30,0,0"></Button>
+            <Button x:Name="btn11" Text="11:00" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Start" Margin="100,30,0,0"></Button>
+            
+            <Button x:Name="btn14" Text="14:00" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Start" Margin="400,-53,0,0"></Button>
+            <Button x:Name="btn13" Text="13:00" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Start" Margin="400,-139,0,0"></Button>
+                <Label Text="LUGAR" TextColor="Black" FontSize="20" FontAttributes="Bold" Margin="100,140,0,0"></Label>
+                <Picker  x:Name="pickeragendar" TextColor="Black" HorizontalOptions="Center" SelectedIndexChanged="Picker_SelectedIndexChanged" WidthRequest="400"></Picker>
+            <Label Text="PAGO" TextColor="Black" FontSize="20" FontAttributes="Bold"  Margin="100,50,0,0"></Label>
+                <Image Source="drawable/webpay.png" HeightRequest="200" WidthRequest="400" Margin="0,30,0,0"></Image>
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

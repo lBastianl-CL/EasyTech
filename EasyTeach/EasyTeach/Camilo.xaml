@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyTeach.Camilo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
+            <Label Text="       UNIVERSIDAD MAYOR" FontSize="20" FontAttributes="Bold" TextColor="Black"></Label>
+            <Label Text="       MATEMÁTICA" FontSize="20" FontAttributes="Bold" TextColor="Black"></Label>
+            <Label Text="       MATEMÁTICA, CALCULO I Y II, ALGEBRA" FontSize="20" FontAttributes="Bold" TextColor="Black"></Label>
+            <StackLayout Margin="0,100,0,0">
+                <Label Text="        PERFIL:" TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>
+                <Button  Text="?" FontSize="50" HorizontalOptions="Start" WidthRequest="200" HeightRequest="200" Margin="200,-80,0,0" />
+            </StackLayout>
+            <StackLayout >
+                <Label Text="        DATOS PERSONALES:" TextColor="Black" FontSize="20" FontAttributes="Bold" Margin="0,80,0,0"></Label>
+                <Label Text="CAMILO ALEXANDER BOLIVAR FERERO" Margin="0,30,0,0" TextColor="Black" BackgroundColor="Orange" HorizontalOptions="Center" FontAttributes="Bold" FontSize="20"></Label>
+                    <Label Text="CAMILO.BOLIVAR@GMAIL.COM             " Margin="0,20,0,0" TextColor="Black" BackgroundColor="Orange" HorizontalOptions="Center" FontAttributes="Bold" FontSize="20"></Label>
+                    <Label Text="PEQUEÑA DESCRIPCIÓN DEL TUTOR      " Margin="0,20,0,0" HeightRequest="200" TextColor="Black" BackgroundColor="Orange" HorizontalOptions="Center" FontAttributes="Bold" FontSize="20"></Label>
+                <Button x:Name="btncontinuar" Text="Continuar" BackgroundColor="Orange" TextColor="Black" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20,0,0"></Button>
+            </StackLayout>
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

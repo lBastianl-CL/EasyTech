@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "9DbjzsuN4PF3wGVqscs9OvSaPGJ/LImcG7OjpNFyw9jjbUHhJHDSK+NVQgZGwEkCkxiw0k2EEUYfFcc6ah2mww==",
+  "success": false,
+  "projectFilePath": "E:\\Universidad\\Universidad\\Easy Teach IMG\\EasyTeach\\EasyTeach.MobileAppService\\EasyTeach.MobileAppService.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Swashbuckle.AspNetCore. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App con la versión (>= 2.1.0)\r\n  - Versiones encontradas en Microsoft Visual Studio Offline Packages: 1 [ versión más cercana: 2.0.0 ]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

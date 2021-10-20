@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyTeach.Escogertutor">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#DFD8CB">
+                <Label Text="ELIGE TU TUTOR" TextColor="Black" FontSize="30" HorizontalOptions="Center" FontAttributes="Bold" Margin="0,100,0,0"/>
+
+                <StackLayout>
+                    <Label TextColor="Black"  Text="CAMILO ALEXANDER BOLIVAR FERERO" FontAttributes="Bold" HorizontalOptions="Start" FontSize="20" Margin="0,80,0,0"></Label>
+                    <Label TextColor="Black" Text="UNIVERSIDAD MAYOR" FontAttributes="Bold" FontSize="20" HorizontalOptions="Start"></Label>
+                    <Label TextColor="Black" Text="MATEMÁTICA, CALCULO I Y II, ALGEBRA" FontAttributes="Bold" HorizontalOptions="Start" FontSize="20" ></Label>
+                    
+                <Button x:Name="btncamilo" Text="?" FontSize="50" HorizontalOptions="End" WidthRequest="100" HeightRequest="100" Margin="0,-100,30,0" />
+                </StackLayout>
+                <Label TextColor="Black" Text="ADRIANA MARCELA SALCEDO SEGURA" HorizontalOptions="Start" FontAttributes="Bold" FontSize="20" Margin="0,80,0,0"></Label>
+                <Label TextColor="Black" Text="UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA" HorizontalOptions="Start"  FontAttributes="Bold" FontSize="20" ></Label>
+                <Label TextColor="Black" Text="FINANZAS, BONOS, MATEMÁTICA FINANCIERA" HorizontalOptions="Start" FontAttributes="Bold" FontSize="20" ></Label>
+                <Button x:Name="btnadriana" Text="?" FontSize="50" HorizontalOptions = "End" WidthRequest="100" HeightRequest="100" Margin="0,-100,30,0" />
+
+                <Label TextColor="Black" Text="ALEXANDER DUARTE SANDOVAL" FontAttributes="Bold" HorizontalOptions="Start" FontSize="20" Margin="0,80,0,0"></Label>
+                <Label TextColor="Black" Text="UNIVERSIDAD DE CONCEPCIÓN" FontAttributes="Bold" HorizontalOptions="Start" FontSize="20" ></Label>
+                <Label TextColor="Black" Text="ECONOMÍA, INTRODUCCIÓN MICRO Y MACRO" HorizontalOptions="Start"  FontAttributes="Bold" FontSize="20" ></Label>
+                <Button x:Name="btnalexander" Text="?" FontSize="50" HorizontalOptions="End" WidthRequest="100" HeightRequest="100" Margin="0,-100,30,0" />
+
+
+
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

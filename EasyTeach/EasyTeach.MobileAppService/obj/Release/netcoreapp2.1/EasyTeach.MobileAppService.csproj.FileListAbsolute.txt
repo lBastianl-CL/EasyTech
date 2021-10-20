@@ -1,0 +1,13 @@
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\bin\Release\netcoreapp2.1\EasyTeach.MobileAppService.deps.json
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\bin\Release\netcoreapp2.1\EasyTeach.MobileAppService.runtimeconfig.json
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\bin\Release\netcoreapp2.1\EasyTeach.MobileAppService.runtimeconfig.dev.json
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\bin\Release\netcoreapp2.1\EasyTeach.MobileAppService.dll
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\bin\Release\netcoreapp2.1\EasyTeach.MobileAppService.pdb
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.csproj.CoreCompileInputs.cache
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.RazorAssemblyInfo.cache
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.RazorAssemblyInfo.cs
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.AssemblyInfoInputs.cache
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.AssemblyInfo.cs
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.RazorTargetAssemblyInfo.cache
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.dll
+D:\Easy Teach IMG\EasyTeach\EasyTeach.MobileAppService\obj\Release\netcoreapp2.1\EasyTeach.MobileAppService.pdb
